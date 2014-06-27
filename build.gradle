@@ -70,16 +70,7 @@ createReleaseTag << {
 uploadArchives {
     repositories {
         mavenDeployer {
-            repository(url: "http://XXX.XXX.XXX.XXX/repositories/releases") {
-                authentication(userName: "$repoUsername", password: "$repoPassword")
-            }
-            pom.artifactId = "circleci-test-gradle"
-        }
-        mavenDeployer {
-            snapshotRepository(url: "http://XXX.XXX.XXX.XXX/repositories/snapshots") {
-                authentication(userName: "$repoUsername", password: "$repoPassword")
-            }
-            pom.artifactId = "circleci-test-gradle"
+            repository(url: "file:${System.getProperty('user.home')}/.m2/repository")
         }
     }
 }
