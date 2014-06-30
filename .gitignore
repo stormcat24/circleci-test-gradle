@@ -21,3 +21,8 @@ gradlew.bat
 # IDEA
 .idea/
 *.iml
+
+# Redis
+redis-2.8.12.tar.gz
+redis-2.8.12/
+dump.rdb

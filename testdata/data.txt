@@ -1,0 +1,5 @@
+SET name1 tehepero1
+SET name2 tehepero2
+SET name3 tehepero3
+SET name4 tehepero4
+SET name5 tehepero5

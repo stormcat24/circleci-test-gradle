@@ -1,0 +1,8 @@
+machine:
+  timezone: Asia/Tokyo
+
+dependencies:
+  cache_directories:
+    - redis-2.8.12
+  pre:
+    - bash ./prepare-redis.sh
