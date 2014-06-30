@@ -6,3 +6,4 @@ dependencies:
     - redis-2.8.12
   pre:
     - bash ./prepare-redis.sh
+    - bash ./import-redis-data.sh
